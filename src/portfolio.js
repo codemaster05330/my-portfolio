@@ -26,8 +26,9 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/codemaster05330/my-portfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  portfolio_repository:
+    "https://github.com/codemaster05330/codemaster05330.github.io",
+  githubProfile: "https://github.com/codemaster05330",
 };
 
 const socialMediaLinks = [
@@ -426,7 +427,6 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
     },
     {
       siteName: "Codechef",
@@ -434,7 +434,6 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
     },
     {
       siteName: "Codeforces",
@@ -442,7 +441,6 @@ const competitiveSites = {
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
     },
     {
       siteName: "Hackerearth",
@@ -450,7 +448,6 @@ const competitiveSites = {
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
     },
     {
       siteName: "Kaggle",
@@ -458,7 +455,6 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
     },
   ],
 };
@@ -466,17 +462,17 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
+      title:
+        "Bachelor of Computer Science from California Institute of Technology",
+      subtitle: "Specialization in Software Engineering",
+      logo_path: "Seal_of_the_California_Institute_of_Technology.svg",
+      alt_name: "Bachelor",
       duration: "2011 - Present",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
         "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
-      website_link: "http://iiitk.ac.in",
     },
   ],
 };
@@ -487,8 +483,6 @@ const certifications = {
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
@@ -496,8 +490,6 @@ const certifications = {
       title: "Deep Learning",
       subtitle: "- Andrew Ng",
       logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
@@ -505,8 +497,6 @@ const certifications = {
       title: "ML on GCP",
       subtitle: "- GCP Training",
       logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
@@ -514,8 +504,6 @@ const certifications = {
       title: "Data Science",
       subtitle: "- Alex Aklson",
       logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -523,8 +511,6 @@ const certifications = {
       title: "Big Data",
       subtitle: "- Kim Akers",
       logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
       alt_name: "Microsoft",
       color_code: "#D83B0199",
     },
@@ -532,8 +518,6 @@ const certifications = {
       title: "Advanced Data Science",
       subtitle: "- Romeo Kienzler",
       logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -541,8 +525,6 @@ const certifications = {
       title: "Advanced ML on GCP",
       subtitle: "- GCP Training",
       logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
@@ -550,8 +532,6 @@ const certifications = {
       title: "DL on Tensorflow",
       subtitle: "- Laurence Moroney",
       logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
@@ -559,8 +539,6 @@ const certifications = {
       title: "Fullstack Development",
       subtitle: "- Jogesh Muppala",
       logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
       alt_name: "Coursera",
       color_code: "#2A73CC",
     },
@@ -568,8 +546,6 @@ const certifications = {
       title: "Kuberenetes on GCP",
       subtitle: "- Qwiklabs",
       logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
       alt_name: "GCP",
       color_code: "#4285F499",
     },
@@ -577,8 +553,6 @@ const certifications = {
       title: "Cryptography",
       subtitle: "- Saurabh Mukhopadhyay",
       logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
       alt_name: "NPTEL",
       color_code: "#FFBB0099",
     },
@@ -586,8 +560,6 @@ const certifications = {
       title: "Cloud Architecture",
       subtitle: "- Qwiklabs",
       logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
       alt_name: "GCP",
       color_code: "#4285F499",
     },

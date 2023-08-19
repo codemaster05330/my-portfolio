@@ -20,18 +20,12 @@ class CompetitiveSites extends React.Component {
                 }
               >
                 <li className="competitive-sites-inline" name={logo.siteName}>
-                  <a
-                    href={logo.profileLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <span
-                      className="iconify"
-                      data-icon={logo.iconifyClassname}
-                      style={logo.style}
-                      data-inline="false"
-                    ></span>
-                  </a>
+                  <span
+                    className="iconify"
+                    data-icon={logo.iconifyClassname}
+                    style={logo.style}
+                    data-inline="false"
+                  ></span>
                 </li>
               </OverlayTrigger>
             );

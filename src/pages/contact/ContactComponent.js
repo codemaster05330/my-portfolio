@@ -25,10 +25,7 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
-                <img
-                  src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
-                />
+                <img src={require(`../../assests/images/avatar.png`)} alt="" />
               </div>
               <div className="contact-heading-text-div">
                 <h1
@@ -48,7 +45,7 @@ class Contact extends Component {
                   <Button
                     text="See My Resume"
                     newTab={true}
-                    href={greeting.resumeLink}
+                    href="./resume.pdf"
                     theme={theme}
                   />
                 </div>
